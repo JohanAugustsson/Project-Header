@@ -1,0 +1,80 @@
+*{
+  border: 1px grey solid;
+}
+
+.container-inner{
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px grey solid;
+  justify-content: center;
+  align-content: space-around;
+}
+.game{
+  flex: 0 0 auto;
+  height: 300px;
+  width: 250px;
+  background-color: hotpink;
+  margin-left:10px;
+}
+.game>img{
+  position: absolute;
+  float:left;
+  margin-left: 50px;
+  margin-top: 5px;
+  height: 200px;
+}
+.game>div{
+  clear: left;
+  left: 10px;
+  margin-top: 190px;
+  width: 98%;
+  margin-left: 2px;
+}
+.game>div>h3{
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.container-header .tv{
+  height: 300px;
+  display: block;
+
+
+}
+.container-header img{
+  position: absolute;
+  height: 300px;
+  margin-left:10px;
+}
+.container-header iframe{
+
+  margin-top: 90px;
+  margin-left: 30px;
+  z-index: 50;
+}
+
+#showTv1{
+
+
+}
+
+#tv:hover{
+  background-color: hotpink;
+}
+
+h3:hover .game{
+  background-color: grey;
+  font-weight: 600;
+}
+
+.container-header{
+  border: 2px red solid;
+}
+.container-header:hover img{
+  border: 2px black solid;
+  z-index: 70;
+  margin-left: 200px;
+}
+
+  border: 2px black solid;
+}
