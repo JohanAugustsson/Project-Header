@@ -1,0 +1,161 @@
+body {
+    font-family: Oswald;
+    margin: 0 auto;
+    padding: 0;
+    background-color: black;
+    background-image: url(../img/boybg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    letter-spacing: 1px;
+}
+
+.logo {
+    font-family: 'Press Start 2P';
+    text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+    font-size: 2em;
+    font-family: ;
+    font-weight: 300;
+    color: #FFF;
+
+}
+
+.contentwrapper {
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-family: Roboto;
+}
+
+.contentWrapper h1 {
+    font-family: Righteous;
+    letter-spacing: 2px;
+    font-size: 1.8em;
+}
+/******MENU********/
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(102, 0, 0, 0.6);
+    text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+    font-family: 'Righteous', sans-serif;
+    font-size: 0.8em;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    display: block;
+    color: #FFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.menu li a:hover {
+    background-color: #000;
+    transition: 0.4s;
+}
+
+
+
+
+/*******CONTENT********/
+
+.contentutvald {
+    display: flex;
+    background-color: rgba(0,0,0, 0.7);
+    padding: 40px;
+    justify-content: space-between;
+    font-size: 1em;
+}
+.contentutvald div:first-child {
+    flex: 2;
+}
+.contentutvald div:last-child {
+    margin: auto;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex: 1;
+}
+.contentutvald h1 {
+    font-size: 1.5em;
+    text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+}
+.contentutvald p {
+    font-size: 0.7em;
+}
+
+
+
+.content {
+    background-color: rgba(0,0,0, 0.7);
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    font-size: 1em;
+}
+.content h1 {
+    font-size: 0.9em;
+    text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+}
+.content p {
+    font-size: 0.7em;
+}
+
+.content div:first-child {
+    flex: 1;
+    padding: 10px;
+}
+.content div:nth-child(2) {
+    flex: 1;
+    padding: 10px;
+}
+.content div:last-child {
+    flex: 1;
+    padding: 10px;
+}
+
+
+
+/*******FOOTER*******/
+footer {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    font-size: 0.8em;
+    padding: 40px;
+    display: flex;
+}
+
+
+.om {
+    padding: 10px;
+    flex: 1;
+}
+
+.om ul {
+    list-style: none;
+}
+.om a, .kontaktaoss a {
+    color: white;
+}
+
+
+.betalning {
+    padding: 10px;
+    flex: 1;
+}
+
+
+.kontaktaoss {
+    padding: 10px;
+    flex: 1;
+}
+
+
