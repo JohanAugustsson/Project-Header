@@ -102,16 +102,24 @@ footer {
 
 
 h1 {
-    font-family: Righteous;
-    font-size: ;
+    font-family: 'Righteous', 'sans-serif';
     color: white;
+    letter-spacing: 2px;
 }
 h2 {
-    
+    font-family: 'Righteous', 'sans-serif';
+    color: white;
+    letter-spacing: 2px;
 }
-
+h3 {
+    font-family: 'Righteous', 'sans-serif';
+    color: white;
+    letter-spacing: 2px;
+}
 p {
-    font-size: 0.9em;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 0.7em;
+    letter-spacing: 1px;
 }
 
 .p1 {
