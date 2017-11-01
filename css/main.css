@@ -1,3 +1,9 @@
+.bg1{
+  background-color: rgba(0,0,0, 0.5);
+}
+
+
+
 body {
     margin: 0 auto;
     padding: 0;
@@ -7,6 +13,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
 
 .logo {
     text-align: center;
@@ -107,7 +115,7 @@ h1 {
     color: white;
 }
 h2 {
-    
+
 }
 
 p {
@@ -115,14 +123,13 @@ p {
 }
 
 .p1 {
-    
+
 }
 
 .p2 {
-    
+
 }
 
 .p3 {
-    
-}
 
+}
