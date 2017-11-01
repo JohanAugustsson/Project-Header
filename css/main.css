@@ -1,5 +1,4 @@
 body {
-    font-family: Oswald;
     margin: 0 auto;
     padding: 0;
     background-color: black;
@@ -7,7 +6,6 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    letter-spacing: 1px;
 }
 
 .logo {
@@ -22,7 +20,6 @@ body {
     margin-right: 20%;
     margin-top: 5%;
     margin-bottom: 10%;
-    font-family: Roboto;
     -webkit-animation: fadein 2.5s;
     animation: fadein 2.5s;
 }
@@ -31,6 +28,9 @@ body {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
+
+
+
 
 /******MENU********/
 .menu ul {
@@ -60,6 +60,8 @@ body {
     color: darkred;
     transition: 0.4s;
 }
+
+
 
 
 /*******FOOTER*******/
@@ -97,4 +99,30 @@ footer {
 }
 
 /******STYLING********/
+
+
+h1 {
+    font-family: Righteous;
+    font-size: ;
+    color: white;
+}
+h2 {
+    
+}
+
+p {
+    font-size: 0.9em;
+}
+
+.p1 {
+    
+}
+
+.p2 {
+    
+}
+
+.p3 {
+    
+}
 
