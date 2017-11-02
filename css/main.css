@@ -19,7 +19,6 @@ body {
 .logo {
     text-align: center;
     padding-bottom: 30px;
-
 }
 
 .contentwrapper {
@@ -118,25 +117,28 @@ h1 {
     color: white;
     letter-spacing: 2px;
 }
-h2 {
-    font-family: 'Poppins', 'sans-serif';
-    color: white;
-    letter-spacing: 2px;
-}
 h3 {
     font-family: 'Poppins', 'sans-serif';
     color: white;
     letter-spacing: 2px;
 }
 
+.h2 {
+    font-family: 'Righteous', 'sans-serif';
+    color: white;
+    letter-spacing: 2px;
+}
+
+
 p {
     font-family: 'Poppins', 'sans-serif';
+    color: black;
     font-size: 0.7em;
     letter-spacing: 1px;
 }
 
 .p1 {
-
+    color: white;
 }
 
 .p2 {

@@ -1,16 +1,16 @@
 /*******CONTENT********/
 
-.featured {
+.containerfeatured {
     display: flex;
-    background-color: rgba(0,0,0, 0.5);
+    background-color: rgba(0,0,0, 0.7);
     padding: 40px;
     justify-content: space-between;
     font-size: 1em;
 }
-.featured div:first-child {
+.containerfeatured div:first-child {
     flex: 2;
 }
-.featured div:last-child {
+.containerfeatured div:last-child {
     margin: auto;
     padding-top: 40px;
     padding-left: 20px;
@@ -18,22 +18,23 @@
     flex: 1;
 }
 
-.contenthome {
-    background-color: rgba(0,0,0, 0.5);
+.containerhome {
+    background-color: rgba(255,255,255, 0.8);
     display: flex;
     justify-content: space-between;
     padding: 40px;
     font-size: 1em;
+    color: black;
 }
-.contenthome div:first-child {
+.containerhome div:first-child {
     flex: 1;
     padding: 10px;
 }
-.contenthome div:nth-child(2) {
+.containerhome div:nth-child(2) {
     flex: 1;
     padding: 10px;
 }
-.contenthome div:last-child {
+.containerhome div:last-child {
     flex: 1;
     padding: 10px;
 }
