@@ -25,6 +25,7 @@
     padding: 40px;
     font-size: 1em;
     color: black;
+    border-top: 2px double white;
 }
 .containerhome div:first-child {
     flex: 1;
@@ -50,3 +51,6 @@
   display: none;
 }
 /****  menu settings end **/
+video {
+    border: solid white;
+}
