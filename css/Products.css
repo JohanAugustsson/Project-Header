@@ -4,19 +4,21 @@
  padding: 0;
 }
 
+.containerProduct .mainHeader{
+  padding: 10px;
+}
 
-
-.container-header{
+.containerProduct{
   height: 150px;
   text-align: center;
   background-color: rgba(0,0,0, 0.5);
 }
-.container-header:hover img{
+.containerProduct:hover img{
   border: 2px black solid;
   z-index: 70;
   margin-left: 200px;
 }
-.container-header img{
+.containerProduct img{
   position: absolute;
   height: 300px;
   margin-left:10px;
