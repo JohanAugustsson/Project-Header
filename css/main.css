@@ -69,8 +69,7 @@ body {
 }
 
 li a.active {
-    background-color: white;
-    color: black;
+    border-bottom: 2px solid white;
 }
 
 

@@ -41,16 +41,13 @@
 }
 
 /****  menu settings added 2017-11-02***/
-#toggle-menu{
+#toggle-menu {
   display: none;
 }
-.menu-on{
+.menu-on {
   display: none;
 }
-.menu-off{
+.menu-off {
   display: none;
 }
 /****  menu settings end **/
-video {
-    border: solid white;
-}
