@@ -49,7 +49,8 @@ body {
     background-color: rgba(0, 0, 0, 0.8);
     text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
     font-family: 'Righteous', sans-serif;
-    font-size: 0.8em;
+    font-size: 0.9em;
+    letter-spacing: 1px
 }
 
 .menu li {
@@ -69,6 +70,9 @@ body {
     transition: 0.4s;
 }
 
+li a.active {
+    color: darkred;
+}
 
 
 
@@ -115,18 +119,18 @@ h1 {
     letter-spacing: 2px;
 }
 h2 {
-    font-family: 'Righteous', 'sans-serif';
+    font-family: 'Poppins', 'sans-serif';
     color: white;
     letter-spacing: 2px;
 }
 h3 {
-    font-family: 'Righteous', 'sans-serif';
+    font-family: 'Poppins', 'sans-serif';
     color: white;
     letter-spacing: 2px;
 }
 
 p {
-    font-family: 'Roboto', 'sans-serif';
+    font-family: 'Poppins', 'sans-serif';
     font-size: 0.7em;
     letter-spacing: 1px;
 }

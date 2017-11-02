@@ -1,16 +1,16 @@
 /*******CONTENT********/
 
-.contentutvald {
+.featured {
     display: flex;
     background-color: rgba(0,0,0, 0.5);
     padding: 40px;
     justify-content: space-between;
     font-size: 1em;
 }
-.contentutvald div:first-child {
+.featured div:first-child {
     flex: 2;
 }
-.contentutvald div:last-child {
+.featured div:last-child {
     margin: auto;
     padding-top: 40px;
     padding-left: 20px;
@@ -18,22 +18,22 @@
     flex: 1;
 }
 
-.content {
+.contenthome {
     background-color: rgba(0,0,0, 0.5);
     display: flex;
     justify-content: space-between;
     padding: 40px;
     font-size: 1em;
 }
-.content div:first-child {
+.contenthome div:first-child {
     flex: 1;
     padding: 10px;
 }
-.content div:nth-child(2) {
+.contenthome div:nth-child(2) {
     flex: 1;
     padding: 10px;
 }
-.content div:last-child {
+.contenthome div:last-child {
     flex: 1;
     padding: 10px;
 }
