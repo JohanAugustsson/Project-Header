@@ -38,3 +38,14 @@
     padding: 10px;
 }
 
+/****  menu settings added 2017-11-02***/
+#toggle-menu{
+  display: none;
+}
+.menu-on{
+  display: none;
+}
+.menu-off{
+  display: none;
+}
+/****  menu settings end **/

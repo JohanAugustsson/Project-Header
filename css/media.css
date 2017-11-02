@@ -1,0 +1,72 @@
+/**** Default settings for media ***/
+#toggle-menu{
+  display: none;
+}
+.menu-on{
+  display: none;
+}
+.menu-off{
+  display: none;
+}
+
+
+/**** Default settings End**/
+
+@media screen and (max-width: 900px){
+  .contentwrapper{
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .menu ul{
+    display: none;
+  }
+
+  .menu-on{
+    color: white;
+    font-size: 2em;
+    position: fixed;
+    right: 10px;
+    padding: 5px;
+    z-index: 1050;
+    display: block;
+  }
+  .menu-off{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+    position: fixed;
+    background-color: rgba(179, 71, 15, 0.27);
+  }
+
+  #toggle-menu:checked ~.menu ul{
+    display: block;
+  }
+  #toggle-menu:checked ~.menu-off{
+    display: block;
+  }
+  #toggle-menu{
+    display: none;
+  }
+  .menu ul{
+    position: fixed;
+    right: 0px;
+    z-index: 1000;
+  }
+  .menu ul li{
+    display: block;
+    float: none;
+    right: 0px;
+
+  }
+  .menu ul li a{
+    display: block;
+    width: 200px;
+    float: none;
+    text-align: left;
+  }
+
+
+}
