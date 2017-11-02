@@ -4,21 +4,33 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="../css/main.css">
     <link rel="stylesheet" type="text/css" href="../css/index.css">
+    <link rel="stylesheet" type="text/css" href="../css/media.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <title>Vanishing Rodent | 1984</title>
     </head>
 
 
 <body>
+
+
+
     <div id="mainwrapper">
         <div class="contentwrapper">
-            <header class="logo"><img style="width: 400px;" src="../img/logost.PNG"></header>
+            <header class="logo"><img src="../img/logga.PNG"></header>
+
+            <!-- lagt till för små devices -->
+              <input type="checkbox" id="toggle-menu">
+              <label class="menu-on" for="toggle-menu"><i class="fa fa-bars" aria-hidden="true"></i></label>
+              <label class="menu-off" for="toggle-menu"></label>
+            <!-- lagt till för små devices -->
+
         <nav class="menu">
             <ul>
-                <li><a href="index.html">Hem</a></li>
+                <li><a class ="active" href="index.html">Hem</a></li>
                 <li><a href="product.html">Konsoler &amp; Spel</a></li>
                 <li><a href="about.html">Om Vanishing Rodent</a></li>
                 <li><a href="contact.html">Kontakta oss</a></li>
@@ -28,7 +40,7 @@
 
           <!---     Cut below       ------------->
 
-            <main class="contentutvald">
+            <main class="featured">
 
                 <div>
                     <h1>UTVALDA SPEL</h1>
@@ -50,7 +62,7 @@
 
 
 
-            <main class="content">
+            <main class="contenthome">
 
                 <div>
                 <img style="width: 100%;" src="../img/realmgrinder.jpg">
