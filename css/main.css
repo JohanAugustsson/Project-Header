@@ -124,9 +124,12 @@ h3 {
 }
 
 .h2 {
-    font-family: 'Righteous', 'sans-serif';
+    font-family: 'Poppins', 'sans-serif';
     color: white;
     letter-spacing: 2px;
+}
+.newh2 {
+    font-family: 'Poppins', 'sans-serif';
 }
 
 
@@ -148,3 +151,4 @@ p {
 .p3 {
 
 }
+
