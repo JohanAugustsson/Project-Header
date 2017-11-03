@@ -96,6 +96,11 @@ footer {
 }
 .om a, .kontaktaoss a {
     color: white;
+    text-decoration: none;
+}
+.om a:hover, .kontaktaoss a:hover {
+    color: darkred;
+    transition: 0.3s;
 }
 
 
@@ -123,7 +128,7 @@ h2 {
     color: white;
     letter-spacing: 2px;
 }
-h3,h4,h5,h6 {
+h3, h4, h5, h6 {
     font-family: 'Poppins', 'sans-serif';
     color: white;
     letter-spacing: 2px;
@@ -141,6 +146,7 @@ p {
 }
 
 .p1 {
+    font-size: 0.9em;
     color: white;
 }
 
@@ -152,13 +158,13 @@ p {
 
 }
 
-ul > li{
+ul > li {
   font-family: 'Poppins', 'sans-serif';
   color: black;
   font-size: 0.7em;
   letter-spacing: 1px;
 }
-ul>li>strong{
+ul > li > strong{
   color: rgb(87, 105, 176);
 }
 
@@ -166,7 +172,7 @@ button {
     opacity: 0.9;
     background-color: #590000;
     border-radius: 5px;
-    padding: 20px;
+    padding: 15px;
     color: white;
     width: 100%;
     font-family: 'Poppins', 'sans-serif';
