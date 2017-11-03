@@ -74,6 +74,34 @@
     float: none;
     text-align: left;
   }
-
-
+    
+    
+    
+    /****INDEXCONTAINERS****/
+    .containerfeatured {
+        display: flex;
+        flex-direction: column;
+    }
+    .containerfeatured div:first-child {
+        flex: 1;
+    }
+    .containerfeatured div:last-child {
+        flex: 1;
+    }
+    .containerhome {
+        flex-direction: column;
+    }
+    .containerhome div:first-child {
+        flex: 1;
+    }
+    .containerhome div:nth-child(2) {
+        flex: 1;
+    }
+    .containerhome div:last-child {
+        flex: 1;
+    }
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
 }
