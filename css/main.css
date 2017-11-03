@@ -126,11 +126,10 @@ h3,h4,h5,h6 {
     color: white;
     letter-spacing: 2px;
 }
-
 .newh2 {
     font-family: 'Poppins', 'sans-serif';
+    color: black;
 }
-
 
 p {
     font-family: 'Poppins', 'sans-serif';
@@ -151,7 +150,7 @@ p {
 
 }
 
-ul>li{
+ul > li{
   font-family: 'Poppins', 'sans-serif';
   color: black;
   font-size: 0.7em;
