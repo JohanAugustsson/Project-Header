@@ -12,9 +12,6 @@
 
 /**** Default settings End**/
 @media screen and (max-width: 1500px) {
-    .logo img {
-        width: 100%;
-    }
   .contentwrapper{
     margin-left: 5%;
     margin-right: 5%;
