@@ -58,7 +58,10 @@
 
 
 /******MEDIA SCREEN 600PX*****/
-@media screen and (max-width: 600px){
+@media screen and (max-width: 375px){
+    .logo img {
+        width: 100%;
+    }
     .containerfeatured {
         display: flex;
         flex-direction: column;
