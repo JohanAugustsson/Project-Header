@@ -116,17 +116,17 @@ h1 {
     color: white;
     letter-spacing: 2px;
 }
-h3 {
+h2 {
+    font-family: 'Poppins', 'sans-serif';
+    color: white;
+    letter-spacing: 2px;
+}
+h3,h4,h5,h6 {
     font-family: 'Poppins', 'sans-serif';
     color: white;
     letter-spacing: 2px;
 }
 
-.h2 {
-    font-family: 'Poppins', 'sans-serif';
-    color: white;
-    letter-spacing: 2px;
-}
 .newh2 {
     font-family: 'Poppins', 'sans-serif';
 }
@@ -151,3 +151,12 @@ p {
 
 }
 
+ul>li{
+  font-family: 'Poppins', 'sans-serif';
+  color: black;
+  font-size: 0.7em;
+  letter-spacing: 1px;
+}
+ul>li>strong{
+  color: rgb(87, 105, 176);
+}
