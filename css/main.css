@@ -61,6 +61,8 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 1.1em;
 }
 .menu li a:hover {
     background-color: #000;
