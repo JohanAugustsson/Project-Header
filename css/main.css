@@ -15,7 +15,6 @@ body {
 }
 
 
-
 .logo {
     text-align: center;
     padding-bottom: 30px;
@@ -160,4 +159,14 @@ ul > li{
 }
 ul>li>strong{
   color: rgb(87, 105, 176);
+}
+
+button {
+    opacity: 0.9;
+    background-color: #590000;
+    margin: 0px;
+    border-radius: 5px;
+}
+button:hover {
+    opacity: 1;
 }
