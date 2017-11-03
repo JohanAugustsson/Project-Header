@@ -16,9 +16,15 @@ body {
 
 
 .logo {
+    font-size: 2em;
     text-align: center;
     margin: 0px;
-    padding-bottom: 30px;
+    text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
 }
 
 .contentwrapper {
@@ -48,7 +54,7 @@ body {
     background-color: rgba(0, 0, 0, 0.8);
     font-family: 'Righteous', sans-serif;
     font-size: 0.9em;
-    letter-spacing: 1px
+    letter-spacing: 1px;
 }
 
 .menu li {
