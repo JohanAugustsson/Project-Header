@@ -26,6 +26,8 @@
   }
 
   .menu ul{
+    top: 10px;
+    right: 10px;
     display: none;
   }
 
