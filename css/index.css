@@ -59,6 +59,10 @@
 
 /******MEDIA SCREEN 450PX*****/
 @media screen and (max-width: 450px){
+    body {
+        background-image: url(../img/gamingbg.jpeg);
+        background-size: cover;
+    }
     .contentwrapper {
         margin-bottom: 0px;
     }
