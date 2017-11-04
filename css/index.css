@@ -59,6 +59,9 @@
 
 /******MEDIA SCREEN 450PX*****/
 @media screen and (max-width: 450px){
+    .contentwrapper {
+        margin-bottom: 0px;
+    }
     .logo img {
         width: 100%;
     }
@@ -92,6 +95,10 @@
         flex-direction: column;
         text-align: center;
     } 
+    .copyright {
+    display: none;
+    }
+
 }
 
 

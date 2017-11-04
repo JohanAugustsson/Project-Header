@@ -192,3 +192,9 @@ button:hover {
     background-color: #590000;
     opacity: 1;
 }
+
+.copyright {
+    font-family: 'Poppins', 'sans-serif';
+    text-align: center;
+    color: white;
+}

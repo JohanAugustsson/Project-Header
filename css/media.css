@@ -23,6 +23,7 @@
   .contentwrapper{
     margin-left: 0;
     margin-right: 0;
+    margin-bottom: 0;
   }
 
   .menu ul{
@@ -106,5 +107,8 @@
     footer {
         flex-direction: column;
         text-align: center;
+    }
+    .copyright {
+    display: none;
     }
 }
