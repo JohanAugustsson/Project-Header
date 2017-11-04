@@ -1,51 +1,97 @@
 /*******CONTENT********/
 
-.featured {
+.containerfeatured {
     display: flex;
-    background-color: rgba(0,0,0, 0.5);
-    padding: 40px;
+    background-color: rgba(0,0,0, 0.7);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-top: 0px;
     justify-content: space-between;
     font-size: 1em;
 }
-.featured div:first-child {
+.containerfeatured div:first-child {
     flex: 2;
 }
-.featured div:last-child {
+.containerfeatured div:last-child {
     margin: auto;
-    padding-top: 40px;
+    padding-top: 10px;
     padding-left: 20px;
     padding-right: 20px;
     flex: 1;
 }
 
-.contenthome {
-    background-color: rgba(0,0,0, 0.5);
+.containerhome {
+    background-color: rgba(255,255,255, 0.8);
     display: flex;
     justify-content: space-between;
     padding: 40px;
     font-size: 1em;
+    color: black;
+    border-top: 2px solid darkred;
 }
-.contenthome div:first-child {
+.containerhome div:first-child {
     flex: 1;
     padding: 10px;
 }
-.contenthome div:nth-child(2) {
+.containerhome div:nth-child(2) {
     flex: 1;
     padding: 10px;
 }
-.contenthome div:last-child {
+.containerhome div:last-child {
     flex: 1;
     padding: 10px;
 }
 
 /****  menu settings added 2017-11-02***/
-#toggle-menu{
+#toggle-menu {
   display: none;
 }
-.menu-on{
+.menu-on {
   display: none;
 }
-.menu-off{
+.menu-off {
   display: none;
 }
 /****  menu settings end **/
+
+
+
+/******MEDIA SCREEN 450PX*****/
+@media screen and (max-width: 450px){
+    .logo img {
+        width: 100%;
+    }
+    .containerfeatured {
+        display: flex;
+        flex-direction: column;
+    }
+    .containerfeatured div:first-child {
+        flex: 1;
+    }
+    .containerfeatured div:last-child {
+        margin: auto;
+        padding-top: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        flex: 1;
+    }
+    .containerhome {
+        flex-direction: column;
+    }
+    .containerhome div:first-child {
+        flex: 1;
+    }
+    .containerhome div:nth-child(2) {
+        flex: 1;
+    }
+    .containerhome div:last-child {
+        flex: 1;
+    }
+    footer {
+        flex-direction: column;
+        text-align: center;
+    } 
+}
+
+

@@ -11,6 +11,13 @@
 
 
 /**** Default settings End**/
+@media screen and (max-width: 1500px) {
+  .contentwrapper{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+}
 
 @media screen and (max-width: 900px){
   .contentwrapper{
@@ -26,6 +33,7 @@
     color: white;
     font-size: 2em;
     position: fixed;
+    top: 10px;
     right: 10px;
     padding: 5px;
     z-index: 1050;
@@ -67,6 +75,34 @@
     float: none;
     text-align: left;
   }
-
-
+    
+    
+    
+    /****INDEXCONTAINERS****/
+    .containerfeatured {
+        display: flex;
+        flex-direction: column;
+    }
+    .containerfeatured div:first-child {
+        flex: 1;
+    }
+    .containerfeatured div:last-child {
+        flex: 1;
+    }
+    .containerhome {
+        flex-direction: column;
+    }
+    .containerhome div:first-child {
+        flex: 1;
+    }
+    .containerhome div:nth-child(2) {
+        flex: 1;
+    }
+    .containerhome div:last-child {
+        flex: 1;
+    }
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
 }

@@ -1,8 +1,11 @@
 Alla fonts o sånt ikoner
 https://fonts.google.com/
 
-Press Start 2P
 Oswald
 Roboto
 Righteous
-Audiowide
+Poppins
+
+colors: 
+darkred (default)
+#590000 (dark red)
