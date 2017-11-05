@@ -1,6 +1,6 @@
 
 .cart {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(255,255,255, 0.9);
         
     border-top: solid 2px #590000;
 }
@@ -8,7 +8,7 @@
 .checkout {
     padding: 15px;
     display: flex;
-    border-top: solid 1px black;
+    border-top: solid 1px darkgray;
 }
 
 .checkout div:first-child {
@@ -44,7 +44,7 @@
 
 
 form {
-    color: white;
+    color: black;
     font-family: 'Poppins', 'sans-serif';
     font-size: 0.7em;
     letter-spacing: 1px;
@@ -58,7 +58,7 @@ input.qty {
 
 .discount {
     border-top: solid 2px #590000;
-    background-color: rgba(255,255,255, 0.8);
+    background-color: rgba(255,255,255, 0.7);
     padding: 35px;
     display: flex;
 }
@@ -144,8 +144,8 @@ input.qty {
         display: none;
     }
     h6 {
-        text-align: center;
-        font-family: 'Poppins', 'sans-serif';
+    text-align: center;
+    font-family: 'Poppins', 'sans-serif';
 }
 
 }
