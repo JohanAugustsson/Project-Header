@@ -1,12 +1,14 @@
 
 .cart {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.8);
+        
     border-top: solid 2px #590000;
 }
 
 .checkout {
     padding: 15px;
     display: flex;
+    border-top: solid 1px black;
 }
 
 .checkout div:first-child {
@@ -42,14 +44,14 @@
 
 
 form {
-    font-family: 'Oswald', 'sans-serif';
-    font-size: 0.8em;
+    color: white;
+    font-family: 'Poppins', 'sans-serif';
+    font-size: 0.7em;
     letter-spacing: 1px;
 }
 input.qty {
     width: 40px;
 }
-
 
 
 
@@ -72,6 +74,10 @@ input.qty {
     margin: 0 auto;
     flex: 2;
 }
+
+
+
+
 
 
 
@@ -137,6 +143,10 @@ input.qty {
     .copyright {
         display: none;
     }
+    h6 {
+        text-align: center;
+        font-family: 'Poppins', 'sans-serif';
+}
 
 }
 
