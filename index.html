@@ -3,29 +3,38 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="./css/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta http-equiv="refresh" content="4;url=https://johanaugustsson.github.io/Project-Header/html/index.html" />
       <link rel="icon" href="/img/favicon.png" type="image/x-icon"/>
     <title>Vanishing Rodent | 1984</title>
 
 
-    <style media="screen">
-        #start{
-          display: fixed;
-          width: 100%;
-          margin-top: 200px;
-          border-top: 2px solid rgba(255, 255, 255, 0.5);
-          border-bottom : 2px solid rgba(255, 255, 255, 0.5);
-            padding: 40px;
+    <style>
+        body {
+            background-image: url(./img/gamingbg.jpeg);
+            background-size: cover;
+        }
+        #start {
+            background-color: rgba(0,0,0, 0.6);
+            margin-top: 200px;
+            border-top: 2px solid rgba(255, 255, 255, 0.5);
+            border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+            padding: 30px;
+            -webkit-animation: fadein 2.5s;
+            animation: fadein 2.5s;
+        }
+
+            @keyframes fadein {
+        from { opacity: 0; }
+        to   { opacity: 1; }
         }
 
     </style>
     </head>
+    
+    
   <body>
-
-      <div class="bg1" id="start">
+      <div id="start">
         <header class="logo"><img src="./img/logo.png"></header>
       </div>
-
   </body>
 </html>
