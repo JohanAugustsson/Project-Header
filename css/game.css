@@ -13,6 +13,12 @@
   margin: 150px auto;
   flex-wrap: wrap;
 }
+.container-game h2{
+  border-bottom: 2px darkred solid;
+  margin-right: 10px;
+  margin-left: 10px;
+  color:black;
+}
 .game-aside{
   flex:1;
   min-height: 100px;
@@ -54,8 +60,16 @@
   font-size: 1.5em;
   color: gold;
   text-align: center;
-}
+  display: block;
 
+}
+.game-aside button{
+  display: block;
+  width: 70%;
+  margin: 30px auto;
+
+
+}
 @media screen and (min-width: 1000px) {
   .container-game{
     display: flex;
