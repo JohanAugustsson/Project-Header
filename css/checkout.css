@@ -19,21 +19,21 @@
     height: 90px;
     line-height: 40px;
     text-align: center;
-    flex: 2;
+    flex: 1.5;
 }
 .checkout div:nth-child(3) {
     height: 90px;
     line-height: 90px;
     text-align: center;
-    flex: 1;
+    flex: 1.5;
 }
 .checkout div:nth-child(4) {
     height: 90px;
     line-height: 90px;
     text-align: center;
-    flex: 1;
+    flex: 0.5;
 }
-.checkout div:last-child{
+.checkout div:last-child {
     height: 90px;
     line-height: 40px;
     text-align: center;
@@ -70,16 +70,21 @@ input.qty {
     padding: 20px;
     text-align: center;
     margin: 0 auto;
-    flex: 1;
+    flex: 2;
 }
 
-/******MEDIA SCREEN 700PX*****/
-@media screen and (max-width: 700px){
+
+
+
+
+
+/******MEDIA SCREEN 1100PX*****/
+@media screen and (max-width: 1100px){
     .cart {
         margin-bottom: 0px;
     }
     .logo img {
-        width: 100%;
+        width: 50%;
     }
     .checkout {
         display: flex;
@@ -123,7 +128,6 @@ input.qty {
     .discount div:last-child {
         flex: 1;
     }
-    
     
     
     footer {
