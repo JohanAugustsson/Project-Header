@@ -20,11 +20,15 @@
 }
 
 @media screen and (max-width: 900px){
+
+
   .contentwrapper{
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 0;
   }
+
+  /*** Menu settings  ***/
 
   .menu ul{
     top: 10px;
@@ -78,9 +82,10 @@
     float: none;
     text-align: left;
   }
-    
-    
-    
+
+    /*** Menu settings  END ***/
+
+
     /****INDEXCONTAINERS****/
     .containerfeatured {
         display: flex;
@@ -111,4 +116,32 @@
     .copyright {
     display: none;
     }
+      /****INDEXCONTAINERS END ****/
+
+
+      /*** PRODUCTCONTAINER  ***/
+    .mainHeader{
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+    /*** PRODUCTCONTAINER END ***/
+
+
+}
+
+@media screen and (max-width: 600px){
+  /*** PRODUCTCONTAINER  ***/
+.mainHeader{
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.container-inner{
+  flex-direction: column;
+
+}
+.game{
+  width: 80%;
+  height: auto;
+  margin: auto;
+  margin-bottom: 10px;
+}
+/*** PRODUCTCONTAINER END ***/
 }

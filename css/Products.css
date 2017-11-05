@@ -6,12 +6,14 @@
 
 .containerProduct .mainHeader{
   padding: 10px;
+  margin-top: 10px;
+  
 }
 
 .containerProduct{
   height: 50px;
   text-align: center;
-  background-color: rgba(0,0,0, 0.5);
+
 }
 .containerProduct:hover img{
   border: 2px black solid;
@@ -29,16 +31,15 @@
 .container-inner{
   display: flex;
   flex-wrap: wrap;
-
   justify-content: center;
-  background-color: rgba(0,0,0, 0.5);
-
+  margin-top:15px;
 }
+
 .game{
   flex: 0 0 auto;
   height: 400px;
   width: 250px;
-  background-color: rgba(235, 19, 8, 0.20);
+  padding: 10px;
   margin:10px;
   border-radius: 5px;
   text-overflow: clip;
@@ -70,43 +71,12 @@
 }
 
 
-/* sidmeny */
-.menuGames ul li{
-  text-align: center;
-  list-style-type: none;
-  float: left;
-  width: 150px;
-  display: inline-block;
+.game:last-child{
+  margin-bottom: 50px;
 }
 
-
-.menuGames a{
-  display: block;
-  text-decoration: none;
-  font-family: "Righteous", sans-serif;
-  color: white;
-
-}
-.gameSelected{
-  width: 30%;
-  text-align: left;
-  margin: 10px;
-
-  border-radius: 5px;
-}
-.gameSelected img{
-  width: 100%;
-}
-.gameSelected:nth-child(1){
-  flex: 8;
-  float: left;
-}
-.gameSelected:nth-child(2){
-  flex: 2;
-}
-.gameSelected:nth-child(3){
-  flex: 2;
-}
-.selectedHeader{
-  height: 450px;
+@media screen and (max-width: 600px){
+  game{
+    width: 100%;
+  }
 }
