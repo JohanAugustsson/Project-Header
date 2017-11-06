@@ -135,12 +135,14 @@
     .menu {
         border-top: solid 2px darkred;
     }
-    
+    .logo {
+        text-align: left;
+    }
+    .logo img {
+        width: 65px;
+    }
     
   /*** PRODUCTCONTAINER  ***/
-    .logo img {
-        width: 300px;
-    }
 .containerProduct{
   flex-direction: column;
 
@@ -163,8 +165,14 @@
     .contentwrapper {
         margin-bottom: 0px;
     }
+    .menu {
+        border-top: solid 2px darkred;
+    }
+    .logo {
+        text-align: left;
+    }
     .logo img {
-        width: 250px;
+        width: 65px;
     }
 
     footer {
