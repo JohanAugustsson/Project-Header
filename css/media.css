@@ -125,12 +125,24 @@
 
 @media screen and (max-width: 600px){
 
-body{
-    background-image: url(./img/gamingbgmobile.jpeg);
-    background-size: auto 100%;
-}
+    body {
+        background-color: black;
+        background-image: none;
+    }
+    h1 {
+        width: 100%;
+    }
+    .menu {
+        border-top: solid 2px darkred;
+    }
+    .logo {
+        text-align: left;
+    }
+    .logo img {
+        width: 65px;
+    }
+    
   /*** PRODUCTCONTAINER  ***/
-
 .containerProduct{
   flex-direction: column;
 
@@ -153,8 +165,14 @@ body{
     .contentwrapper {
         margin-bottom: 0px;
     }
+    .menu {
+        border-top: solid 2px darkred;
+    }
+    .logo {
+        text-align: left;
+    }
     .logo img {
-        width: 100%;
+        width: 65px;
     }
 
     footer {
