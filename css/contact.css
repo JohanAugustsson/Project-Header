@@ -17,8 +17,8 @@ flex-grow: 1;}
     
     
 }
-.formular {flex-grow: 2;}
-.adress {flex-grow: 2;}
+.formular {flex: 2;}
+.adress {flex: 1;}
 
 
 input, textarea {width: 60%;
