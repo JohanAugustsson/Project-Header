@@ -1,79 +1,40 @@
-.container-game-video{
-  margin-left: 50px auto;
 
-}
-.game-aside>h2{
-  color:black;
-  margin-left:10px;
-}
 .container-game{
-  width: 100%;
-  height: 1800px;
-  background-color: rgba(255,255,255, 0.7);
-  margin: 150px auto;
+  display:flex;
+
+}
+
+.game-box{
+  flex:1;
+  display:flex;
   flex-wrap: wrap;
-}
-.container-game h2{
-  border-bottom: 2px darkred solid;
-  margin-right: 10px;
-  margin-left: 10px;
-  color:black;
-}
-.game-aside{
-  flex:1;
-  min-height: 100px;
-  min-width: 650px;
-}
-.game-aside>p{
-  margin-left: 10px;
-  margin-right: 10px;
-}
-.game-main{
-  flex:1;
-  display: flex;
   flex-direction: column;
+  padding:10px;
+}
+
+.game-box h2,.game-box h4, .game-box h5{
+  color: black;
+}
+
+.box1{
+  flex:1;
 
 }
-.game-box1>p, .game-box1>h4, .game-box1>h5,ul{
-  color:black;
-  margin-left: 10px;
-
-}
-.game-box1{
-  border: 1px white solid;
-}
-.game-box1 > img{
+.box1 img{
+  position: relative;
   width: 80%;
-  margin-left:10%;
-  margin-top: 10px;
+  margin: 2% 10%;
 }
-.game-box1:nth-child(1){flex:1; min-height: 350px;border-bottom:none;}
-.game-box1:nth-child(2){flex:3; min-height: 200px;border-top:none;}
-
-.game-box1>ul>li{
-  list-style-type: none;
-  margin-left: -30px;
+.game-box button{
+  width: 80%;
+  margin: 20px auto;
 }
 
-.rating{
-  margin-top: 20px;
-  font-size: 1.5em;
+.rating .fa{
   color: gold;
-  text-align: center;
-  display: block;
-
 }
-.game-aside button{
-  display: block;
-  width: 70%;
-  margin: 30px auto;
 
-
-}
-@media screen and (min-width: 1000px) {
-  .container-game{
-    display: flex;
-
-  }
+.rating h2,.game-box h2{
+  border-bottom: 2px solid darkred;
 
 }

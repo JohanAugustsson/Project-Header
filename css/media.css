@@ -117,7 +117,11 @@
     display: none;
     }
       /****INDEXCONTAINERS END ****/
+      /*** Game ***/
+      .container-game{
+        display:block;
 
+      }
 
 
 
@@ -141,7 +145,7 @@
     .logo img {
         width: 65px;
     }
-    
+
   /*** PRODUCTCONTAINER  ***/
 .containerProduct{
   flex-direction: column;
