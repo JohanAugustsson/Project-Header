@@ -119,20 +119,13 @@
       /****INDEXCONTAINERS END ****/
 
 
-      /*** PRODUCTCONTAINER  ***/
-    .mainHeader{
-      background-color: rgba(0, 0, 0, 0.8);
-    }
-    /*** PRODUCTCONTAINER END ***/
 
 
 }
 
 @media screen and (max-width: 600px){
   /*** PRODUCTCONTAINER  ***/
-.mainHeader{
-  background-color: rgba(0, 0, 0, 0.8);
-}
+
 .containerProduct{
   flex-direction: column;
 
