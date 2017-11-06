@@ -132,6 +132,7 @@
 
 body{
     background-image: url(./img/gamingbgmobile.jpeg);
+    background-size: auto 100%;
 }
   /*** PRODUCTCONTAINER  ***/
 .mainHeader{
