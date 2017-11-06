@@ -141,9 +141,11 @@
     }
     .logo {
         text-align: left;
-    }
-    .logo img {
-        width: 65px;
+        content: url("../img/logomobiledevice.png");
+        width: 100px;
+        margin-top: 17px;
+        margin-left: 15px;
+        margin-bottom: 15px;
     }
 
   /*** PRODUCTCONTAINER  ***/
