@@ -1,4 +1,4 @@
-/*******CONTENT********/
+/******* CONTENT ********/
 
 .containerfeatured {
     display: flex;
@@ -24,7 +24,7 @@
 .containerhome {
     background-color: rgba(255,255,255, 0.8);
     display: flex;
-    padding: 40px;
+    padding: 20px;
     font-size: 1em;
     color: black;
     border-top: 2px solid darkred;
@@ -42,9 +42,18 @@
     padding: 10px;
 }
 
+.containerhome div:first-child:hover {
+
+}
+.containerhome div:nth-child(2):hover {
+
+}
+.containerhome div:last-child:hover {
+
+}
 
 
-/****  menu settings added 2017-11-02***/
+/***  menu settings added 2017-11-02 ***/
 #toggle-menu {
     display: none;
 }
@@ -54,53 +63,53 @@
 .menu-off {
     display: none;
 }
-/****  menu settings end **/
+/***  menu settings end ***/
 
 
 
-/******MEDIA SCREEN 450PX*****/
+/***** Media creen 450px *****/
 @media screen and (max-width: 450px){
 
-.containerfeatured {
-    display: flex;
-    flex-direction: column;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 20px;
-    padding-top: 0px;
-}
-.containerfeatured div:first-child {
-    flex: 1;
-}
-.containerfeatured div:last-child {
-    margin: auto;
-    padding-top: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    flex: 1;
-}
-.containerhome {
-    flex-direction: column;
-}
-.containerhome div:first-child {
-    flex: 1;
-}
-.containerhome div:nth-child(2) {
-    flex: 1;
-}
-.containerhome div:last-child {
-    flex: 1;
-}
-.containerhome {
-    background-color: rgba(255,255,255, 0.8);
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    font-size: 1em;
-    color: black;
-    border-top: 2px solid darkred;
-}
-h1 {
-    text-align: center;
-}
+    .containerfeatured {
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 20px;
+        padding-top: 0px;
+    }
+    .containerfeatured div:first-child {
+        flex: 1;
+    }
+    .containerfeatured div:last-child {
+        margin: auto;
+        padding-top: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        flex: 1;
+    }
+    .containerhome {
+        flex-direction: column;
+    }
+    .containerhome div:first-child {
+        flex: 1;
+    }
+    .containerhome div:nth-child(2) {
+        flex: 1;
+    }
+    .containerhome div:last-child {
+        flex: 1;
+    }
+    .containerhome {
+        background-color: rgba(255,255,255, 0.8);
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        font-size: 1em;
+        color: black;
+        border-top: 2px solid darkred;
+    }
+    h1 {
+        text-align: center;
+    }
 }
