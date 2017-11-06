@@ -124,10 +124,10 @@
 }
 
 @media screen and (max-width: 600px){
-  body{
-    background-image: url(../img/gamingbgmobil.jpeg);
-  }
 
+body{
+    background-image: url(./img/gamingbgmobile.jpeg);
+}
   /*** PRODUCTCONTAINER  ***/
 
 .containerProduct{
