@@ -133,7 +133,7 @@
 .mainHeader{
   background-color: rgba(0, 0, 0, 0.8);
 }
-.container-inner{
+.containerProduct{
   flex-direction: column;
 
 }
@@ -144,4 +144,30 @@
   margin-bottom: 10px;
 }
 /*** PRODUCTCONTAINER END ***/
+}
+
+
+
+/******MEDIA SCREEN 450PX*****/
+@media screen and (max-width: 450px){
+
+  /**** General settings for page ****/
+    .contentwrapper {
+        margin-bottom: 0px;
+    }
+    .logo img {
+        width: 100%;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+    .copyright {
+    display: none;
+    }
+    /**** General settings for page  END ***/
+
+
+
 }

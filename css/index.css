@@ -59,16 +59,7 @@
 
 /******MEDIA SCREEN 450PX*****/
 @media screen and (max-width: 450px){
-    body {
-        background-image: url(../img/gamingbg.jpeg);
-        background-size: cover;
-    }
-    .contentwrapper {
-        margin-bottom: 0px;
-    }
-    .logo img {
-        width: 100%;
-    }
+
     .containerfeatured {
         display: flex;
         flex-direction: column;
@@ -95,14 +86,6 @@
     .containerhome div:last-child {
         flex: 1;
     }
-    footer {
-        flex-direction: column;
-        text-align: center;
-    } 
-    .copyright {
-    display: none;
-    }
+  
 
 }
-
-
