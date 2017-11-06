@@ -63,6 +63,10 @@
     .containerfeatured {
         display: flex;
         flex-direction: column;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 20px;
+        padding-top: 0px;
     }
     .containerfeatured div:first-child {
         flex: 1;
@@ -86,6 +90,13 @@
     .containerhome div:last-child {
         flex: 1;
     }
-  
-
+    .containerhome {
+        background-color: rgba(255,255,255, 0.8);
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        font-size: 1em;
+        color: black;
+        border-top: 2px solid darkred;
+    }
 }
