@@ -130,6 +130,11 @@
 
 @media screen and (max-width: 600px){
   /*** PRODUCTCONTAINER  ***/
+    
+    body {
+        background-image: auto 100%;
+    }
+    
 .mainHeader{
   background-color: rgba(0, 0, 0, 0.8);
 }

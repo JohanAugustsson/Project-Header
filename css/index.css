@@ -59,7 +59,7 @@
 
 /******MEDIA SCREEN 450PX*****/
 @media screen and (max-width: 450px){
-
+    
     .containerfeatured {
         display: flex;
         flex-direction: column;
