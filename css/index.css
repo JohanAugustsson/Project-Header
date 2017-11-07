@@ -1,4 +1,4 @@
-/******* CONTENT ********/
+/**** Content ****/
 
 .containerfeatured {
     display: flex;
@@ -43,6 +43,11 @@
     padding: 10px;
 }
 
+
+
+
+/**** Height on p-tag ****/
+
 .pheight {
     height: 270px;
 }
@@ -64,7 +69,7 @@
 
 
 
-/***** Media creen 450px *****/
+/***** Media screen 450px *****/
 @media screen and (max-width: 450px){
 
     .containerfeatured {
