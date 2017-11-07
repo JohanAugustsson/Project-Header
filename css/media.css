@@ -177,8 +177,10 @@
     .formularadress {
         margin-left: 0;
         text-align: center;
-
-}
+    }
+    .title span {
+        display: none;
+    }
 
     /* End */
 }

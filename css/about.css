@@ -27,7 +27,9 @@
     margin-bottom: 10px;
 
 }
-
+span {
+    font-size: 0.8em;
+}
 
 p {
     color:white;
@@ -36,7 +38,7 @@ p {
 
 
 /*** media screen 600px ***/
-@media and screen (max-width:600px) {
+@media and screen (max-width: 600px) {
     
     .container {
         flex-direction: column;
