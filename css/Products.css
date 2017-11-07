@@ -124,7 +124,7 @@
 .gameHeader span{
   color: darkred;
   font-size: 1em;
-
-  font-weight: 500;
-  
+  margin-left: 15px;
+  font-weight: 600;
+  text-align: right;
 }
