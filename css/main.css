@@ -105,7 +105,7 @@ li a.active {
 /**** SOCIAL MEDIA ****/
 .socialmedia {
     position: absolute;
-    top: 450px;
+    top: 415px;
     right: 16%;
 }
 .socialmedia ul li {
@@ -117,7 +117,7 @@ li a.active {
     padding-bottom: 10px;
 }
 .socialmedia ul li:hover {
-    transform: scale(1.04);
+    transform: scale(1.05);
     transition: 0.3s;
     opacity: 1;
 }
@@ -243,6 +243,8 @@ button {
 button:hover {
     background-color: #590000;
     opacity: 1;
+    transform: scale(1.03);
+    transition: 0.3s;
 }
 
 .copyright {
