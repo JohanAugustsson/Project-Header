@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .fotocontainer {
     display: flex;
 }
@@ -12,11 +12,9 @@
 
 .formularadress {
     display: flex;
-    border:1px solid black;   
-=======
-.fotocontainer {display: flex;
-    
-}
+  
+
+
 
 .contactcontainer {background-color: rgba(0,0,0, 0.7)}
 .namn {
@@ -26,7 +24,7 @@ flex-grow: 1;}
 
 .formularadress {
    margin-left: 20px; 
->>>>>>> erik
+
 }
 
 
@@ -34,14 +32,14 @@ flex-grow: 1;}
 .formular {
     display: flex;
     flex-direction: column;
-<<<<<<< HEAD
+
 }
-=======
+
     }
 
 .formular {flex-grow: 2;}
 .adress {flex-grow: 2;}
->>>>>>> erik
+
 
 .formular {
     flex: 2;
@@ -51,17 +49,7 @@ flex-grow: 1;}
     flex: 1;
 }
 
-<<<<<<< HEAD
 
-input, textarea {
-    width: 60%;
-    background-color: lightgrey;
-}
-
-button {
-    width: 10%;
-}
-=======
 input, textarea {width: 300px;
 background-color: lightgrey;
 }
@@ -70,15 +58,8 @@ button {width: 10%;}
 
 p {color: white}
 
-.vignette {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  box-shadow: 0 0 200px rgba(0,0,0,0.9) inset;
-}
+
 
 a {text-decoration:none;
 color:darkred}
->>>>>>> erik
+
