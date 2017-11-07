@@ -1,27 +1,38 @@
-.fotocontainer {display: flex;
+.fotocontainer {
+    display: flex;
 }
-.namn {border:1px solid black;
-padding:10px;
-text-align: center;
-flex-grow: 1;}
 
-.formularadress {display: flex;
+.namn {
     border:1px solid black;
-    
-    
+    padding:10px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.formularadress {
+    display: flex;
+    border:1px solid black;   
 }
 
 .formular form  {
     display: flex;
     flex-direction: column;
-    
-    
 }
-.formular {flex: 2;}
-.adress {flex: 1;}
+
+.formular {
+    flex: 2;
+}
+
+.adress {
+    flex: 1;
+}
 
 
-input, textarea {width: 60%;
-background-color: lightgrey;}
+input, textarea {
+    width: 60%;
+    background-color: lightgrey;
+}
 
-button {width: 10%;}
+button {
+    width: 10%;
+}
