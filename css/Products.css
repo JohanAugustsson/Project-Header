@@ -69,7 +69,6 @@
 
 
 .tilt {
-
   -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -77,42 +76,6 @@
     transition: all 0.5s ease;
 }
 
-
-.gameHeaderSpec{
-  text-align: left;
-  border: 2px red solid;
-  width: 210px;
-  display: none;
-    -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-   -ms-transform: rotate(90deg);
-       transform: rotate(90deg);
-
-}
-.gameHeaderSpec *{
-  color:white;
-}
-.gameHeaderSpec h5{
-  color: white;
-}
-.gameHeaderSpec ul li{
-  list-style-type: none;
-
-}
-.gameHeaderSpec strong{
-  color: blue;
-  font-weight: 600;
-}
-.tilt:hover .gameHeaderSpec{
-  display: block;
-  position: absolute;
-  top: 20px;
-  left: 170px;
-  color:white;
-  font-size: 0.8em;
-
-}
 
 .tilt:hover h3{
 
@@ -127,10 +90,10 @@
         transform: rotate(-90deg);
    position: absolute;
    background-color: rgba(255, 0, 0, 0.8);
-   left: -335px;
-   top:  85px;
+   left: -225px;
+   top:  194px;
    width: 155%;
-   height: 250px;
+   height: 31px;
    text-align: center;
    text-shadow: 0.5px 0.5px 0.5px darkred, 10px 5px 25px darkred, 0 0 0.2px;
 
