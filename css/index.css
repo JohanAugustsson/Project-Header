@@ -9,6 +9,7 @@
     padding-top: 0px;
     justify-content: space-between;
     font-size: 1em;
+    box-shadow: 0 0 200px rgba(0,0,0,0.9) inset;
 }
 .containerfeatured div:first-child {
     flex: 2;
