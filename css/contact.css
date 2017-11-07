@@ -32,10 +32,9 @@ flex-grow: 1;}
 .formular {
     display: flex;
     flex-direction: column;
-
 }
 
-    }
+    
 
 .formular {flex-grow: 2;}
 .adress {flex-grow: 2;}
@@ -62,4 +61,10 @@ p {color: white}
 
 a {text-decoration:none;
 color:darkred}
+
+@media screen and (max-width: 600px){
+    .fotocontainer {flex-direction: column;}
+}
+
+
 
