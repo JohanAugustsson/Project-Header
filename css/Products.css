@@ -1,6 +1,7 @@
 * {
  margin: 0;
  padding: 0;
+/* box-sizing: border-box;*/
 
 }
 
@@ -63,4 +64,56 @@
 .game a{
   text-decoration: none;
     font-weight: 600;
+}
+
+
+
+.tilt {
+
+  -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+
+
+
+
+.tilt:hover h3{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    color: white;
+   transform: scale(1.5,1.5);
+   -webkit-transform: rotate(-90deg);
+   -moz-transform: rotate(-90deg);
+     -o-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+   position: absolute;
+   background-color: rgba(255, 0, 0, 0.8);
+   left: -225px;
+   top:  195px;
+   width: 155%;
+   text-align: center;
+   text-shadow: 0.5px 0.5px 0.5px darkred, 10px 5px 25px darkred, 0 0 0.2px;
+
+}
+
+.tilt:hover img{
+
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.tilt:hover{
+
+  z-index: 1000;
+   transform: scale(1.1, 1.1);
+  margin-left: 6px;
+  margin-right: 5px;
+  margin-top: -2px;
+  border: 1px darkred solid;
+  box-shadow: 4px 4px 8px 4px rgba(186, 6, 11, 0.50), 0 6px 20px 0 darkred;
+
 }
