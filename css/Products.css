@@ -67,6 +67,8 @@
 }
 
 
+@media screen and (min-width: 900px){
+
 
 .tilt {
   -webkit-transition: all 0.5s ease;
@@ -105,7 +107,6 @@
 }
 
 .tilt:hover{
-
   z-index: 1000;
   transform: scale(1.1, 1.1);
   margin-left: 6px;
@@ -113,5 +114,17 @@
   margin-top: -2px;
   border: 1px darkred solid;
   box-shadow: 4px 4px 8px 4px rgba(186, 6, 11, 0.50), 0 6px 20px 0 darkred;
+}
+.tilt:hover .gameHeader span{
+ color: rgb(233, 224, 5);
+ font-weight: 900;
+}
 
+} /*  Media Query END*/
+.gameHeader span{
+  color: darkred;
+  font-size: 1em;
+
+  font-weight: 500;
+  
 }
