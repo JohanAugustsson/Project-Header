@@ -1,27 +1,44 @@
 .fotocontainer {display: flex;
+    
 }
-.namn {border:1px solid black;
+
+.contactcontainer {background-color: rgba(0,0,0, 0.7)}
+.namn {
 padding:10px;
 text-align: center;
 flex-grow: 1;}
 
-.formularadress {display: flex;
-    border:1px solid black;
-    
-    
+.formularadress {
+   margin-left: 20px; 
 }
 
-.formular form  {
+
+
+.formular {
     display: flex;
     flex-direction: column;
-    
-    
-}
+    }
+
 .formular {flex-grow: 2;}
 .adress {flex-grow: 2;}
 
 
-input, textarea {width: 60%;
-background-color: lightgrey;}
+input, textarea {width: 300px;
+background-color: lightgrey;
+}
 
 button {width: 10%;}
+
+p {color: white}
+
+.vignette {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 200px rgba(0,0,0,0.9) inset;
+}
+
+a {text-decoration:none;
+color:darkred}
