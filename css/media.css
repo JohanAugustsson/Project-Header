@@ -171,7 +171,15 @@
         margin-bottom: 10px;
     }
   /* settings for about.html*/
-     .container {flex-direction: column;}
+     .container {
+         flex-direction: column;
+    }
+    .formularadress {
+        margin-left: 0;
+        text-align: center;
+
+}
+
     /* End */
 }
 
