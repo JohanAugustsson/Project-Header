@@ -1,70 +1,63 @@
+.contactcontainer {
+    background-color: rgba(0,0,0, 0.7);
+    box-shadow: 0 0 200px rgba(0,0,0,0.9) inset;
+}
 
 .fotocontainer {
     display: flex;
 }
 
 .namn {
-    border:1px solid black;
-    padding:10px;
+    border: 1px solid black;
+    padding: 10px;
     text-align: center;
     flex-grow: 1;
 }
 
 .formularadress {
     display: flex;
-  
+    margin-left: 20px; 
 }
-
-
-.contactcontainer {background-color: rgba(0,0,0, 0.7)}
-.namn {
-padding:10px;
-text-align: center;
-flex-grow: 1;}
-
-.formularadress {
-   margin-left: 20px; 
-
-}
-
 
 
 .formular {
     display: flex;
     flex-direction: column;
+    flex-grow: 2;
 }
 
-    
-
-.formular {flex-grow: 2;}
-.adress {flex-grow: 2;}
-
-
-.formular {
-    flex: 2;
+input, textarea {
+    width: 280px;
+    background-color: lightgray;
 }
 
-.adress {
-    flex: 1;
+button {
+    width: 100px;
+}
+
+p {
+    color: white
 }
 
 
-input, textarea {width: 280px;
-background-color: lightgrey;
+a {
+    text-decoration: none;
+    color: darkred;
 }
 
-button {width: 90px;}
-
-p {color: white}
 
 
-
-a {text-decoration:none;
-color:darkred}
-
+/*** media screen 600 ***/
 @media screen and (max-width: 600px){
-    .fotocontainer {flex-direction: column;}
-    .namn {flex:1;}
+    .fotocontainer {
+        flex-direction: column;
+    }
+    .namn {
+        flex:1;
+    }
+    form {
+        text-align: center;
+    }
 }
 
 
