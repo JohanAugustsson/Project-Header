@@ -170,8 +170,11 @@
         margin: auto;
         margin-bottom: 10px;
     }
-    
+  /* settings for about.html*/
+     .container {flex-direction: column;}
+    /* End */
 }
+
 /*** PRODUCTCONTAINER END ***/
 
 
